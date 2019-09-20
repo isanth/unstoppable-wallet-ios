@@ -50,16 +50,20 @@
 
 //Coin Sync Modes
 
-"coin_sync.title" = "恢复选项";
-"coin_sync.fast" = "快";
-"coin_sync.recommended" = "0 小时 (推荐)";
-"coin_sync.fast.text" = "通过安全的第三方服务器恢复过往交易。对于具有大量涉及大额交易历史的用户，这种方法可能会带来隐私风险。";
-"coin_sync.slow" = "慢";
-"coin_sync.more_private" = "1 小时(更多隐私)";
-"coin_sync.slow.text" = "直接通过网络恢复您的过往交易。更加私密，但非常缓慢。如果恢复过程耗时过长，请前往”管理密钥“部分并使用”快速同步“选项重新导入钱包密钥。";
-"coin_sync.alert.header" = "注意";
-"coin_sync.alert.text" = "This action will resync your wallet balance for each blockchain. It may take several hours to complete.";
-"coin_sync.erc20" = "Sync mode same as Ethereum";
+"restore_options.title" = "Restore Options";
+"restore_options.sync.text" = "Fast: Restores your past transactions via secure third party server. For users with transactions involving large sums this method may pose privacy risks.\n\nSlow: Restores your past transactions directly from the blockchain. More private but very slow. If it takes too long, go to Manage Wallets in Settings, delete the the Unstoppable entry and repeat the process with Fast option.";
+"restore_options.sync.fast" = "Fast";
+"restore_options.sync.recommended" = "0-2 hours (Recommended)";
+"restore_options.sync.slow" = "Slow";
+"restore_options.sync.more_private" = "1-12 hours (More Private)";
+"restore_options.derivation.text" = "Select the time period when you first created the wallet in Unstoppable.";
+"restore_options.derivation.before_update" = "Before October 2019";
+"restore_options.derivation.after_update" = "After October 2019";
+"restore_options.derivation.bip44" = "BIP-44";
+"restore_options.derivation.bip49" = "BIP-49";
+"restore_options.alert.header" = "Attention";
+"restore_options.alert.text" = "This action will resync your wallet balance for each blockchain. It may take several hours to complete.";
+"restore_options.erc20" = "Sync mode same as Ethereum";
 
 // Backup
 
