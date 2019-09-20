@@ -50,16 +50,20 @@
 
 //Coin Sync Modes
 
-"coin_sync.title" = "옵션 복구";
-"coin_sync.fast" = "빠르게";
-"coin_sync.recommended" = "0-2시간 (권장)";
-"coin_sync.fast.text" = "안전한 제3 서버를 통해 과거 거래를 복원합니다. 이 방법은 큰 액수와 긴 거래내역을 가지고 있는 사용자들에게 개인정보보호 침해의 위험을 야기할 수 있습니다";
-"coin_sync.slow" = "느리게";
-"coin_sync.more_private" = "1-12시간 (더욱 사적임)";
-"coin_sync.slow.text" = "네트워크에서 직접 거래를 복원하세요. 훨씬 더 사적이지만 속도는 매우 느립니다. 복원에 너무 많은 시간이 걸린다면 암호관리 섹션에서 빠른 동기화 옵션을 사용하여 지갑의 암호를 다시 가져오세요.";
-"coin_sync.alert.header" = "주목";
-"coin_sync.alert.text" = "이 작업은 각 블록체인의 지갑 잔액을 동기화합니다. 수행하는데 몇 시간 정도 걸릴 수 있습니다.";
-"coin_sync.erc20" = "Ethereum의 모드와 같이 동기화";
+"restore_options.title" = "Restore Options";
+"restore_options.sync.text" = "Fast: Restores your past transactions via secure third party server. For users with transactions involving large sums this method may pose privacy risks.\n\nSlow: Restores your past transactions directly from the blockchain. More private but very slow. If it takes too long, go to Manage Wallets in Settings, delete the the Unstoppable entry and repeat the process with Fast option.";
+"restore_options.sync.fast" = "Fast";
+"restore_options.sync.recommended" = "0-2 hours (Recommended)";
+"restore_options.sync.slow" = "Slow";
+"restore_options.sync.more_private" = "1-12 hours (More Private)";
+"restore_options.derivation.text" = "Select the time period when you first created the wallet in Unstoppable.";
+"restore_options.derivation.before_update" = "Before October 2019";
+"restore_options.derivation.after_update" = "After October 2019";
+"restore_options.derivation.bip44" = "BIP-44";
+"restore_options.derivation.bip49" = "BIP-49";
+"restore_options.alert.header" = "Attention";
+"restore_options.alert.text" = "This action will resync your wallet balance for each blockchain. It may take several hours to complete.";
+"restore_options.erc20" = "Sync mode same as Ethereum";
 
 // Backup
 
