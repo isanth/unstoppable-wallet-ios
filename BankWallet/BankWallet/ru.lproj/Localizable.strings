@@ -44,7 +44,7 @@
 "restore.title" = "Restore From";
 "restore.item_title" = "%@ Кошелек";
 "restore.description" = "Чтобы восстановить существующий кошелек вам нужно ввести секретный ключ для этого кошелька.\n\nКак только вы восстановите один кошелек, вы сможете восстановить больше кошельков, перейдя в раздел \"Управление Ключами\" в настройках приложения.";
-"restore.words.description" = "Введите закрытый ключ для кошелька %@";
+"restore.words.description" = "Введите приватный ключ для кошелька %@";
 "restore.validation_failed" = "Неверный Ключ";
 "restore.placeholder.account_name" = "Account Name";
 "restore.placeholder.private_key" = "Active Private Key";
@@ -70,9 +70,9 @@
 
 "backup.close" = "Закрыть";
 "backup.backup_required" = "Необходима Резервная Копия";
-"backup.private_key" = "Private Key";
+"backup.private_key" = "Приватный Ключ";
 
-"backup.intro.title_backup" = "Backup";
+"backup.intro.title_backup" = "Резервная Копия";
 "backup.intro.title_show" = "Показать Ключ";
 "backup.intro.subtitle" = "The private key that will be shown next is the only way to restore your funds if your phone is ever lost, stolen, broken etc.\n\nMake sure that no one is watching your screen.\n\nThe coins controlled by this key: %@";
 "backup.intro.later" = "Позже";
