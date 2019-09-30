@@ -35,24 +35,24 @@
 
 // Welcome
 
-"welcome.new_wallet" = "Create Wallet";
+"welcome.new_wallet" = "创建钱包";
 "welcome.restore_wallet" = "恢复钱包";
-"welcome.version" = "Version %@";
+"welcome.version" = "版本%@";
 
 // Restore
 
-"restore.title" = "Restore From";
-"restore.item_title" = "%@ Wallet";
+"restore.title" = "恢复自";
+"restore.item_title" = "%@钱包";
 "restore.description" = "要恢复现有钱包，您必须输入该钱包的密钥。\n\n恢复一个钱包后，您可以前往应用设置中的“管理密钥”恢复更多钱包。";
-"restore.words.description" = "Enter private key for %@ wallet";
+"restore.words.description" = "输入%@钱包的私钥";
 "restore.validation_failed" = "密钥不正确";
 "restore.placeholder.account_name" = "Account Name";
 "restore.placeholder.private_key" = "Active Private Key";
 
 //Coin Sync Modes
 
-"restore_options.title" = "Restore Options";
-"restore_options.sync.text" = "Fast: Restores your past transactions via secure third party server. For users with transactions involving large sums this method may pose privacy risks.\n\nSlow: Restores your past transactions directly from the blockchain. More private but very slow. If it takes too long, go to Manage Wallets in Settings, delete the the Unstoppable entry and repeat the process with Fast option.";
+"restore_options.title" = "恢复选项";
+"restore_options.sync.text" = "快：通过安全的第三方服务器恢复您过往的交易。对于拥有大额交易的用户，此方法可能会带来隐私风险。\n\n慢：直接从区块链恢复您过往的交易。如果耗时过长，请前往“设置”中的“管理钱包”，删除不可停止条目并使用“快”选项重复此过程。";
 "restore_options.sync.fast" = "Fast";
 "restore_options.sync.recommended" = "0-2 hours (Recommended)";
 "restore_options.sync.slow" = "Slow";
