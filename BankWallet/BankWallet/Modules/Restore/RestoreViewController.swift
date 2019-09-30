@@ -39,7 +39,7 @@ class RestoreViewController: WalletViewController {
     }
 
     private var walletRows: [RowProtocol] {
-        accountTypes.enumerated().map { (index, accountType) in
+        return accountTypes.enumerated().map { (index, accountType) in
             Row<RestoreAccountCell>(
                     id: "wallet_\(index)_row",
                     autoDeselect: true,
@@ -75,7 +75,7 @@ class RestoreViewController: WalletViewController {
 extension RestoreViewController: SectionsDataSource {
 
     func buildSections() -> [SectionProtocol] {
-        [
+       return  [
             Section(
                     id: "wallets",
                     headerState: header,

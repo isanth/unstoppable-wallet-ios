@@ -15,7 +15,7 @@ extension ThemeManager: IThemeManager {
 
     var lightMode: Bool {
         get {
-            localStorage.lightMode
+            return localStorage.lightMode
         }
         set {
             localStorage.lightMode = newValue

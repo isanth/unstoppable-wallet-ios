@@ -14,7 +14,7 @@ class PriceAlertRecord: Record {
     }
 
     override class var databaseTableName: String {
-        "price_alert_records"
+        return "price_alert_records"
     }
 
     enum Columns: String, ColumnExpression {

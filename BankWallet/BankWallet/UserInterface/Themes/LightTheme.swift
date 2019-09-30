@@ -6,9 +6,9 @@ class LightTheme: ITheme {
     let keyboardAppearance: UIKeyboardAppearance = .default
     let navigationBarStyle: UIBarStyle = .default
     var statusBarStyle: UIStatusBarStyle {
-        if #available(iOS 13.0, *) {
-            return .darkContent
-        }
+//        if #available(iOS 13.0, *) {
+//            return .darkContent
+//        }
         return .default
     }
 

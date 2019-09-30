@@ -3,7 +3,7 @@ class UnstoppableAccountType: IPredefinedAccountType {
     let coinCodes = "BTC, ETH, BCH, DASH, ERC20 tokens"
 
     var defaultAccountType: DefaultAccountType {
-        .mnemonic(wordsCount: 12)
+        return DefaultAccountType.mnemonic(wordsCount: 12)
     }
 
     func supports(accountType: AccountType) -> Bool {

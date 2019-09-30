@@ -31,7 +31,7 @@ class RestoreAccountCell: CardCell {
 extension RestoreAccountCell {
 
     static func titleText(accountType: AccountTypeViewItem) -> String {
-        "restore.item_title".localized(accountType.title)
+        return "restore.item_title".localized(accountType.title)
     }
 
     static func height(containerWidth: CGFloat, accountType: AccountTypeViewItem) -> CGFloat {

@@ -25,11 +25,11 @@ class NotificationSettingsInteractor {
 extension NotificationSettingsInteractor: INotificationSettingsInteractor {
 
     var alerts: [PriceAlert] {
-        priceAlertManager.priceAlerts
+        return priceAlertManager.priceAlerts
     }
 
     var allowedBackgroundFetching: Bool {
-        notificationManager.allowedBackgroundFetching
+       return notificationManager.allowedBackgroundFetching
     }
 
     func requestPermission() {

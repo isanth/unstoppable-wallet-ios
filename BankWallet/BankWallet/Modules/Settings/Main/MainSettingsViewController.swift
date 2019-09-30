@@ -77,7 +77,7 @@ class MainSettingsViewController: WalletViewController {
     }
 
     private var appearanceRows: [RowProtocol] {
-        [
+        return [
             Row<TitleCell>(id: "notifications", height: SettingsTheme.cellHeight, bind: { cell, _ in
                 cell.bind(titleIcon: UIImage(named: "Notification Icon"), title: "settings.notifications".localized, showDisclosure: true)
             }, action: { [weak self] _ in
@@ -105,7 +105,7 @@ class MainSettingsViewController: WalletViewController {
     }
 
     private var aboutRows: [RowProtocol] {
-        [
+        return [
             Row<TitleCell>(id: "about", height: SettingsTheme.cellHeight, bind: { cell, _ in
                 cell.bind(titleIcon: UIImage(named: "About Icon"), title: "settings.about".localized, showDisclosure: true)
             }, action: { [weak self] _ in
@@ -127,7 +127,7 @@ class MainSettingsViewController: WalletViewController {
     }
 
     private var debugRows: [RowProtocol] {
-        [
+       return  [
             Row<TitleCell>(id: "debug_realm_info", height: SettingsTheme.cellHeight, autoDeselect: true, bind: { cell, _ in
                 cell.bind(titleIcon: UIImage(named: "Bug Icon"), title: "Show Realm Info", showDisclosure: false, last: true)
             }, action: { [weak self] _ in
@@ -137,7 +137,7 @@ class MainSettingsViewController: WalletViewController {
     }
 
     private var footer: ViewState<MainSettingsFooter> {
-        .cellType(hash: "about_footer", binder: { [weak self] view in
+        return .cellType(hash: "about_footer", binder: { [weak self] view in
             view.bind(appVersion: self?.appVersion) { [weak self] in
                 self?.delegate.didTapCompanyLink()
             }

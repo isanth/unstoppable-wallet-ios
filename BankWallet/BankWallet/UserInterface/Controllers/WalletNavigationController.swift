@@ -32,11 +32,11 @@ class WalletNavigationController: UINavigationController {
     }
 
     open override var childForStatusBarStyle: UIViewController? {
-        self.topViewController
+        return self.topViewController
     }
 
     open override var childForStatusBarHidden: UIViewController? {
-        self.topViewController
+        return self.topViewController
     }
 
 }

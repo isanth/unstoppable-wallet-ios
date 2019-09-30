@@ -23,7 +23,7 @@ class BackupConfirmationPresenter: IBackupConfirmationPresenter {
 extension BackupConfirmationPresenter: IBackupConfirmationViewDelegate {
 
     var predefinedAccountTitle: String {
-        predefinedAccountType.title
+        return predefinedAccountType.title
     }
 
     func generateNewIndexes() {

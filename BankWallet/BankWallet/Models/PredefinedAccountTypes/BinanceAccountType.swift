@@ -3,7 +3,7 @@ class BinanceAccountType: IPredefinedAccountType {
     let coinCodes = "BNB, BEP-2 tokens"
 
     var defaultAccountType: DefaultAccountType {
-        .mnemonic(wordsCount: 24)
+        return DefaultAccountType.mnemonic(wordsCount: 24).self
     }
 
     func supports(accountType: AccountType) -> Bool {

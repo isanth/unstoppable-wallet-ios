@@ -7,7 +7,7 @@ class NotificationManager {
 extension NotificationManager: INotificationManager {
 
     var allowedBackgroundFetching: Bool {
-        UIApplication.shared.backgroundRefreshStatus == .available
+        return UIApplication.shared.backgroundRefreshStatus == .available
     }
 
     func requestPermission(onComplete: @escaping (Bool) -> ()) {

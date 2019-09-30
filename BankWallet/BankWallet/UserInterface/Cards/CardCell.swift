@@ -78,11 +78,11 @@ class CardCell: UITableViewCell {
 extension CardCell {
 
     static func contentWidth(containerWidth: CGFloat) -> CGFloat {
-        containerWidth - CardCell.horizontalMargin * 2
+        return containerWidth - CardCell.horizontalMargin * 2
     }
 
     static func height(contentHeight: CGFloat) -> CGFloat {
-        contentHeight + CardCell.bottomMargin
+        return contentHeight + CardCell.bottomMargin
     }
 
 }

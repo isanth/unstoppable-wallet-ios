@@ -42,28 +42,28 @@ class MainSettingsInteractor {
 extension MainSettingsInteractor: IMainSettingsInteractor {
 
     var companyWebPageLink: String {
-        appConfigProvider.companyWebPageLink
+        return appConfigProvider.companyWebPageLink
     }
 
     var appWebPageLink: String {
-        appConfigProvider.appWebPageLink
+        return appConfigProvider.appWebPageLink
     }
 
     var allBackedUp: Bool {
-        backupManager.allBackedUp
+        return backupManager.allBackedUp
     }
 
     var currentLanguageDisplayName: String? {
-        languageManager.currentLanguageDisplayName
+        return languageManager.currentLanguageDisplayName
     }
 
     var baseCurrency: Currency {
-        currencyManager.baseCurrency
+        return currencyManager.baseCurrency
     }
 
     var lightMode: Bool {
         get {
-            themeManager.lightMode
+            return themeManager.lightMode
         }
         set {
             themeManager.lightMode = newValue
@@ -71,7 +71,7 @@ extension MainSettingsInteractor: IMainSettingsInteractor {
     }
 
     var appVersion: String {
-        systemInfoManager.appVersion
+        return systemInfoManager.appVersion
     }
 
 }

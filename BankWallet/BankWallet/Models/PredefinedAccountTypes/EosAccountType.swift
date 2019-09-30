@@ -3,7 +3,7 @@ class EosAccountType: IPredefinedAccountType {
     let coinCodes = "EOS, EOS tokens"
 
     var defaultAccountType: DefaultAccountType {
-        .eos
+        return DefaultAccountType.eos
     }
 
     func supports(accountType: AccountType) -> Bool {

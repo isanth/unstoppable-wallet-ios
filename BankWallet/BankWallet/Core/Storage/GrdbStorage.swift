@@ -66,7 +66,7 @@ class GrdbStorage {
 
         migrator.registerMigration("migrateAuthData") { db in
             let keychain = Keychain(service: "io.horizontalsystems.bank.dev")
-            guard let data = try? keychain.getData("auth_data_keychain_key"), let authData = NSKeyedUnarchiver.unarchiveObject(with: data) as? AuthData else {
+            guard let data = try? keychain.getData("auth_data_keychain_key"), let authData = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? AuthData else {
                 return
             }
             try? keychain.remove("auth_data_keychain_key")
@@ -235,7 +235,7 @@ extension GrdbStorage: IAccountRecordStorage {
 extension GrdbStorage: IPriceAlertRecordStorage {
 
     var priceAlertRecords: [PriceAlertRecord] {
-        try! dbPool.read { db in
+        return try! dbPool.read { db in
             try PriceAlertRecord.fetchAll(db)
         }
     }

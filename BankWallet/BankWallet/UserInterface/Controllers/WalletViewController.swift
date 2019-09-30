@@ -34,7 +34,7 @@ class WalletViewController: UIViewController {
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        App.theme.statusBarStyle
+        return App.theme.statusBarStyle
     }
 
 }

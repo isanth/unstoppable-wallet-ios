@@ -26,7 +26,7 @@ extension PriceAlertStorage: IPriceAlertStorage {
     }
 
     var activePriceAlerts: [PriceAlert] {
-        priceAlerts.filter { $0.state != .off }
+        return priceAlerts.filter { $0.state != .off }
     }
 
     func save(priceAlerts: [PriceAlert]) {

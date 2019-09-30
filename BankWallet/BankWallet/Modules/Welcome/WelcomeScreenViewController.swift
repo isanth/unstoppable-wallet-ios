@@ -66,7 +66,7 @@ class WelcomeScreenViewController: UIViewController {
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        .lightContent
+        return .lightContent
     }
 
     override func viewWillAppear(_ animated: Bool) {
