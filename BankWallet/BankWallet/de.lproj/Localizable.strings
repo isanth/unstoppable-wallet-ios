@@ -35,7 +35,7 @@
 
 // Welcome
 
-"welcome.new_wallet" = "Create Wallet";
+"welcome.new_wallet" = "Wallet Erstellen";
 "welcome.restore_wallet" = "Wallet Wiederherstellen";
 "welcome.version" = "Version %@";
 
@@ -51,20 +51,20 @@
 
 //Coin Sync Modes
 
-"restore_options.title" = "Restore Options";
+"restore_options.title" = "Optionen Wiederherstellen";
 "restore_options.sync.text" = "Fast: Restores your past transactions via secure third party server. For users with transactions involving large sums this method may pose privacy risks.\n\nSlow: Restores your past transactions directly from the blockchain. More private but very slow. If it takes too long, go to Manage Wallets in Settings, delete the the Unstoppable entry and repeat the process with Fast option.";
-"restore_options.sync.fast" = "Fast";
+"restore_options.sync.fast" = "Schnell";
 "restore_options.sync.recommended" = "0-2 hours (Recommended)";
-"restore_options.sync.slow" = "Slow";
+"restore_options.sync.slow" = "Langsam";
 "restore_options.sync.more_private" = "1-12 hours (More Private)";
 "restore_options.derivation.text" = "Select the time period when you first created the wallet in Unstoppable.";
 "restore_options.derivation.before_update" = "Before October 2019";
 "restore_options.derivation.after_update" = "After October 2019";
 "restore_options.derivation.bip44" = "BIP-44";
 "restore_options.derivation.bip49" = "BIP-49";
-"restore_options.alert.header" = "Attention";
-"restore_options.alert.text" = "This action will resync your wallet balance for each blockchain. It may take several hours to complete.";
-"restore_options.erc20" = "Sync mode same as Ethereum";
+"restore_options.alert.header" = "Achtung";
+"restore_options.alert.text" = "Diese Aktion wird dein Wallet-Konto für jede Blockchain neu synchronisieren. Es kann mehrere Stunden dauern, um ihn abzuschließen.";
+"restore_options.erc20" = "Sync-Modus wie Ethereum";
 
 // Backup
 
@@ -356,7 +356,7 @@
 // Create Wallet
 
 "create_wallet.title" = "New Wallet";
-"create_wallet.create_button" = "Create";
+"create_wallet.create_button" = "Erstellen";
 "create_wallet.description" = "Select one cryptocurrency to start. You will be able to add other cryptocurrencies later.";
 
 "price_notification.up" = "up";
