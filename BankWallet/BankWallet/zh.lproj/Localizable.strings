@@ -53,25 +53,25 @@
 
 "restore_options.title" = "恢复选项";
 "restore_options.sync.text" = "快：通过安全的第三方服务器恢复您过往的交易。对于拥有大额交易的用户，此方法可能会带来隐私风险。\n\n慢：直接从区块链恢复您过往的交易。如果耗时过长，请前往“设置”中的“管理钱包”，删除不可停止条目并使用“快”选项重复此过程。";
-"restore_options.sync.fast" = "Fast";
-"restore_options.sync.recommended" = "0-2 hours (Recommended)";
-"restore_options.sync.slow" = "Slow";
-"restore_options.sync.more_private" = "1-12 hours (More Private)";
-"restore_options.derivation.text" = "Select the time period when you first created the wallet in Unstoppable.";
-"restore_options.derivation.before_update" = "Before October 2019";
-"restore_options.derivation.after_update" = "After October 2019";
+"restore_options.sync.fast" = "快";
+"restore_options.sync.recommended" = "0-2小时（推荐）";
+"restore_options.sync.slow" = "慢";
+"restore_options.sync.more_private" = "1-12小时（更私密）";
+"restore_options.derivation.text" = "当首次在“不可停止”中创建钱包时选择时间周期。";
+"restore_options.derivation.before_update" = "在2019年10月之前";
+"restore_options.derivation.after_update" = "在2019年10月之后";
 "restore_options.derivation.bip44" = "BIP-44";
 "restore_options.derivation.bip49" = "BIP-49";
-"restore_options.alert.header" = "Attention";
-"restore_options.alert.text" = "This action will resync your wallet balance for each blockchain. It may take several hours to complete.";
-"restore_options.erc20" = "Sync mode same as Ethereum";
+"restore_options.alert.header" = "注意";
+"restore_options.alert.text" = "此操作将对每一区块链重新同步您的钱包余额。这需要数小时来完成。";
+"restore_options.erc20" = "和Ethereum相同的同步模式";
 
 // Backup
 
 "backup.close" = "关闭";
 "backup.backup_required" = "需要备份";
 
-"backup.intro.title_backup" = "Private Key";
+"backup.intro.title_backup" = "私钥";
 "backup.intro.title_show" = "显示密钥";
 "backup.intro.subtitle" = "The private key that will be shown next is the only way to restore your funds if your phone is ever lost, stolen, broken etc.\n\nMake sure that no one is watching your screen.\n\nThe coins controlled by this key: %@";
 "backup.intro.later" = "稍后";
