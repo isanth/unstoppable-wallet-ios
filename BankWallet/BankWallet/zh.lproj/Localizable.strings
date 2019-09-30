@@ -70,7 +70,7 @@
 
 "backup.close" = "关闭";
 "backup.backup_required" = "需要备份";
-"backup.private_key" = "Private Key";
+"backup.private_key" = "私钥";
 
 "backup.intro.title_backup" = "备份";
 "backup.intro.title_show" = "显示密钥";
